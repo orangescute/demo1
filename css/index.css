@@ -1,0 +1,370 @@
+/* banner */
+.banner {
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.banner .wrapper {
+    position: relative;
+    height: 500px;
+    background-color: pink;
+}
+
+/* 轮播图 */
+.banner .wrapper {
+    overflow: hidden;
+}
+
+.banner .wrapper .focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400%;
+}
+
+.banner .wrapper .focus ul li {
+    float: left;
+}
+
+/* 侧导航 */
+.banner .aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.banner .aside li {
+    height: 50px;
+    line-height: 50px;
+}
+
+.banner .aside li a {
+    position: relative;
+    display: block;
+    padding-left: 35px;
+    padding-right: 19px;
+    height: 50px;
+    color: #fff;
+}
+
+.banner .aside li a span {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.banner .aside li a strong {
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.banner .aside li a:hover {
+    background-color: rgb(197, 54, 54);
+    ;
+}
+
+/* 箭头 */
+.prev,
+.next {
+    display: none;
+    position: absolute;
+    top: 228px;
+    width: 20px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+    line-height: 45px;
+    font-size: 30px;
+    font-weight: 700;
+    opacity: .3;
+    text-align: center;
+}
+
+.prev {
+    left: 260px;
+    text-align: left;
+}
+
+.next {
+    right: 10px;
+    text-align: right;
+}
+
+/* 圆点 */
+.banner .circle {
+    position: absolute;
+    left: 680px;
+    bottom: 30px;
+    height: 10px;
+}
+
+.banner .circle li {
+    float: left;
+    margin-right: 24px;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    opacity: .5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.banner .circle .current {
+    background-color: red;
+}
+
+/* 新鲜好物 */
+.goods .hd {
+    height: 114px;
+    line-height: 114px;
+}
+
+.goods .hd h2 {
+    float: left;
+    font-size: 29px;
+    font-weight: 400;
+    height: 114px;
+}
+
+.goods .hd span {
+    margin-left: 34px;
+    font-size: 16px;
+    color: #999;
+}
+
+.goods .hd a {
+    float: right;
+    color: #999;
+}
+
+.goods .hd a span {
+    width: 7px;
+    height: 13px;
+    margin-left: 13px;
+}
+
+.goods .bd ul li {
+    position: relative;
+    float: left;
+    margin-right: 8px;
+    width: 304px;
+    height: 405px;
+    background-color: #f0f9f4;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px #999;
+}
+
+.goods .bd ul li:hover {
+    box-shadow: 5px 5px 2px 2px #999;
+}
+
+.goods .bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.goods .bd li a img {
+    width: 304px;
+}
+
+.goods .bd li a h3 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.goods .bd li a div {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    color: rgb(197, 54, 54);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.goods .bd li a em {
+    margin-left: 5px;
+    text-decoration: line-through;
+    font-style: italic;
+    color: #999;
+    font-size: 14px;
+}
+
+.goods .bd li a span {
+    position: absolute;
+    left: 17px;
+    top: 18px;
+    width: 28px;
+    height: 51px;
+    border: 1px solid rgb(197, 54, 54);
+    ;
+    border-radius: 2px;
+    font-size: 18px;
+    color: rgb(197, 54, 54);
+    ;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* 服饰 */
+.fushi {
+    margin-bottom: 20px;
+}
+
+.fushi .hd {
+    height: 96px;
+    line-height: 96px;
+}
+
+.fushi .hd h2 {
+    float: left;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.fushi .hd .more {
+    float: right;
+    margin-left: 125px;
+    color: #999;
+}
+
+.fushi .hd ul li {
+    float: right;
+    padding: 0 12px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.fushi .hd ul a {
+    padding: 5px
+}
+
+.fushi .hd ul a:hover {
+    color: #fff;
+    border-radius: 6px;
+    background-color: rgb(197, 54, 54);
+    ;
+}
+
+.fushi .hd a span {
+    width: 7px;
+    height: 13px;
+    margin-left: 13px;
+}
+
+.fushi .bd .left {
+    position: relative;
+    float: left;
+    width: 240px;
+    height: 610px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px #999;
+}
+
+.fushi .bd .left img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition: all .5s;
+
+}
+
+.fushi .bd .right {
+    float: left;
+    width: 1000px;
+    height: 610px;
+}
+
+.fushi .bd .right img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition: all .5s;
+}
+
+.fushi .bd .right ul li {
+    float: left;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 240px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px #999;
+}
+
+.fushi .bd .left .txt {
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    z-index: 2;
+    font-size: 28px;
+    color: #fff;
+    width: 240px;
+    text-align: center;
+    transition: all .5s;
+}
+
+.fushi .bd .right ul li .txt {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    z-index: 2;
+    font-size: 18px;
+    color: #fff;
+    width: 240px;
+    text-align: center;
+    transition: all .5s;
+}
+
+.fushi .bd .left .txt p {
+    color: #fff;
+    font-size: 50px;
+}
+
+.fushi .bd .right ul li p {
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* 渐变背景 */
+.fushi .bd .left .mask,
+.fushi .bd .right ul li .mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(transparent,
+            rgba(0, 0, 0, 0.8));
+    opacity: 0;
+    transition: all .5s;
+}
+
+.fushi .bd .left:hover .mask,
+.fushi .bd .right ul li:hover .mask {
+    opacity: .8;
+}
+
+/* 图片放大 */
+.fushi .bd .left:hover img,
+.fushi .bd .right ul li:hover img {
+    transform: scale(1.1);
+}
+
+/* 文字效果 */
+.fushi .bd .left:hover .txt,
+.fushi .bd .right ul li:hover .txt {
+    bottom: 0;
+
+}

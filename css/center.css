@@ -1,0 +1,220 @@
+.content {
+    padding: 30px 0 0;
+    background-color: #f6f6f6;
+}
+
+.content .wrapper {
+    display: flex;
+}
+
+/* 侧边栏 */
+.content .aside {
+    width: 227px;
+    min-height: 500px;
+    margin-right: 15px;
+    background-color: #fff;
+}
+
+.content .aside .user {
+    padding: 50px 0;
+    margin-bottom: 10px;
+    width: 227px;
+    height: 227px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.content .aside .user img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.content .aside .user h4 {
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.content .aside .account {
+    padding: 20px 30px;
+    width: 227px;
+
+    background-color: #fff;
+}
+
+.content .aside .account li a {
+    display: block;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.content .aside .account li a:hover {
+    color: rgb(197, 54, 54);
+    ;
+}
+
+
+/* 侧边栏的主体 */
+.content .mian {
+    flex: 1;
+    min-height: 500px;
+}
+
+.content .status h6 {
+    font-size: 16px;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.content .status .w {
+    display: inline-block;
+
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.overview {
+    display: flex;
+    height: 132px;
+    margin-bottom: 18px;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.overview div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+
+.overview div a:hover {
+    color: rgb(197, 54, 54);
+    ;
+}
+
+.overview div p {
+    font-size: 14px;
+}
+
+.overview div span {
+    font-size: 25px;
+}
+
+/* 边框线 */
+.overview div:nth-child(1) {
+    border-right: 1px solid #f4f4f4;
+}
+
+/* 公共 */
+.pannel {
+    margin-bottom: 20px;
+    padding: 28px 20px;
+    background-color: #fff;
+}
+
+.pannel .pannel_title {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.pannel .pannel_title h4 {
+    font-size: 22px;
+    color: #333;
+    font-weight: 400;
+}
+
+.pannel .pannel_title a {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #999;
+}
+
+/* 订单 */
+.orders li {
+    display: flex;
+    height: 137px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #f4f4f4;
+}
+
+.orders li:last-child {
+    margin-bottom: 0;
+}
+
+.orders li .goods {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 0 5px;
+    margin-right: 120px;
+}
+
+.orders li .goods img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.orders li .goods .txt {
+    margin-left: 50px;
+}
+
+.orders li .goods .txt h5 {
+    font-size: 18px;
+}
+
+.orders li .goods .txt p {
+    font-size: 14px;
+}
+
+.orders li .status {
+    width: 120px;
+    color: rgb(222, 171, 78);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.orders li .pay {
+    width: 200px;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    font-size: 16px;
+}
+
+.orders li .pay p:first-child {
+    color: red;
+    font-size: 20px;
+}
+
+.orders li .action {
+    width: 180px;
+    font-size: 14px;
+}
+
+.orders li .action a:first-child {
+    margin-bottom: 5px;
+    padding: 5px 20px;
+    background-color: rgb(197, 54, 54);
+    ;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.orders li .common {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

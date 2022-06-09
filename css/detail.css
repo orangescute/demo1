@@ -1,0 +1,179 @@
+.goods-info {
+    padding: 40px 60px;
+    height: 700px;
+    background-color: #f7f7f7;
+}
+
+.goods-info .left {
+    float: left;
+    margin-right: 60px;
+}
+
+.goods-info .left .img {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.goods-info .left .img .mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    background-color: #FEDE4F;
+    opacity: .3;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+
+.big {
+    display: none;
+    position: absolute;
+    left: 510px;
+    top: -150px;
+    width: 700px;
+    height: 700px;
+    background-color: pink;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.big .bigImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.goods-info .left .img .big>img {
+    width: 200%;
+    height: 200%;
+}
+
+.goods-info .left img {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 30px;
+}
+
+.goods-info .left ul {
+    width: 400px;
+    height: 100px;
+}
+
+.goods-info .left ul li {
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.goods-info .left ul li p {
+    height: 22px;
+}
+
+.goods-info .left ul li p:first-child {
+    color: #666;
+    font-size: 14px;
+}
+
+.goods-info .left ul li p:last-child {
+    color: #333;
+    font-size: 16px;
+}
+
+.red {
+    color: red;
+}
+
+.goods-info .right {
+    float: left;
+}
+
+.goods-info .right h3 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.goods-info .right ul {
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 180px;
+    background-color: #f1f1f1;
+}
+
+.goods-info .right ul li {
+    height: 50px;
+    font-size: 14px;
+}
+
+.goods-info .right ul li span {
+    color: #999;
+}
+
+.goods-info .right ul li em {
+    color: rgb(197, 54, 54);
+}
+
+.goods-info .right p {
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.goods-info .right h4 {
+    color: red;
+    font-size: 28px;
+}
+
+.goods-info .right div {
+    color: #999;
+    margin-bottom: 30px;
+}
+
+.goods-info .right div a {
+    display: inline-block;
+    color: #333;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #fff;
+}
+
+.goods-info .right div a:first-child {
+    color: rgb(197, 54, 54);
+    background-color: #fff;
+}
+
+.goods-info .right>span {
+    color: #999;
+}
+
+.goods-info .right input {
+    display: inline;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.goods-info .right input:last-child {
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(197, 54, 54);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.goods-info .left .iconfont {
+    font-size: 20px;
+    color: rgb(197, 54, 54);
+}

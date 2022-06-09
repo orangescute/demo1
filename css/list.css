@@ -1,0 +1,132 @@
+.top .shortcut {
+    position: static;
+    height: 52px;
+    width: 100%;
+    background-color: #333;
+    z-index: 3;
+}
+
+/* 电梯导航 */
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -750px;
+    width: 66px;
+    display: none;
+}
+
+.fixedtool li {
+    cursor: pointer;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+}
+
+.fixedtool .current {
+    background-color: #fff;
+    color: rgb(197, 54, 54);
+}
+
+/* 人气推荐 */
+.goods .hd {
+    height: 114px;
+    line-height: 114px;
+}
+
+.goods .hd h2 {
+    float: left;
+    font-size: 29px;
+    font-weight: 400;
+    height: 114px;
+}
+
+.goods .hd span {
+    margin-left: 34px;
+    font-size: 16px;
+    color: #999;
+}
+
+.goods .hd a {
+    float: right;
+    color: #999;
+}
+
+.goods .hd a span {
+    width: 7px;
+    height: 13px;
+    margin-left: 13px;
+}
+
+.goods .bd ul li {
+    position: relative;
+    float: left;
+    margin-right: 8px;
+    width: 304px;
+    height: 405px;
+    background-color: #f0f9f4;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px #999;
+}
+
+.goods .yifu ul li {
+    height: 505px;
+}
+
+.goods .bd ul li:hover {
+    box-shadow: 5px 5px 2px 2px #999;
+}
+
+.goods .bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.goods .bd li a img {
+    width: 304px;
+}
+
+.goods .bd li a h3 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.goods .bd li a div {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    color: rgb(197, 54, 54);
+    ;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.goods .bd li a em {
+    margin-left: 5px;
+    text-decoration: line-through;
+    font-style: italic;
+    color: #999;
+    font-size: 14px;
+}
+
+.goods .bd li a span {
+    position: absolute;
+    left: 17px;
+    top: 18px;
+    width: 28px;
+    height: 51px;
+    border: 1px solid rgb(197, 54, 54);
+    ;
+    border-radius: 2px;
+    font-size: 18px;
+    color: rgb(197, 54, 54);
+    ;
+    font-weight: 400;
+    line-height: 24px;
+}
